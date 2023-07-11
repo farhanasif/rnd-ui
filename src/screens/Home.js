@@ -9,6 +9,10 @@ const Home = ({ navigation }) => {
         title="Login Here"
         onPress={() => navigation.navigate('Login')}
       />
+      <Button
+        title="Monitor"
+        onPress={() => navigation.navigate('Monitor')}
+      />
     </View>
   )
 }
